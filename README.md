@@ -3,10 +3,10 @@
   <img width="460" height="350" src="https://i.ibb.co/SRtp1wX/Screenshot-2022-04-07-093342.png">
 </p>
 This project aimed to build a machine learning model proficient at crop type classification. Such a model would be able to accurately discern what crop type was planted
-within a field when presented with an image of that field as taken by a satellite. The three main models investigated were a non-temporal convolutional neural network, a
-temporal artificial neural network and a temporal random forest. 
+within a field when presented with an image of that field as taken by a satellite. The three main models investigated were: a mono-temporal convolutional neural network, a
+multi-temporal artificial neural network and a multi-temporal random forest. 
 
-The code used to both run all three models and that used to build datasets applicable for their training and testing is contained within this repository. The dataset
+The code used both run all three models as well as that used to build datasets applicable for their training and testing is contained within this repository. The dataset
 pre-processing algorithms take in the raw data inputs of Sentinel 2 imagery and Digimap crop maps and return data samples of differing configurations depending
 for what model the dataset is being built for. 
 
